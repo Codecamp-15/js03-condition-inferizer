@@ -5,9 +5,6 @@ let message;
 :(login == "") ? message = "No login" : alert(message ="");
 
 
-
-
-
 // function example() {
 //     return condition1 ? value1
 //       : condition2 ? value2
