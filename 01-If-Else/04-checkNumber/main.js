@@ -10,3 +10,12 @@ let num2 = prompt('which number?');
 if (num2 === null || num2.trim() === '' || isNaN(num2)){
     alert('Invalid number')
 }
+else if (num2>0){
+    alert('Positive number');
+}
+else if (num2 == 0) {
+    alert('Zero');
+}
+else if (num2 < 0) {
+    alert('Negative number');
+}

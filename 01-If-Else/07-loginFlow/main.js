@@ -1,10 +1,12 @@
 let user = prompt('Username?');
-
-if (user === null || user.trim() === '')
-
-
 let pass = prompt('Password?');
 
-if 
-
-if else ((user == 'admin' && pass == '1234') || (user == 'john' && pass == 'qwerty'));
+if ((user === null || user.trim() === '') && (pass === null || pass.trim() === '' )) {
+    alert('username or password is required');
+}
+else if ((user == 'admin' && pass == '1234') || (user == 'john' && pass == 'qwerty')){
+    alert('Welcome' + " " + user);
+}
+else {
+    alert('invalid username or password');
+}

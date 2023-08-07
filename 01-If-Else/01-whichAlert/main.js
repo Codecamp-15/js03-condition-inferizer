@@ -3,5 +3,5 @@ if (0) {
 } else {
   alert("Nooo");
 }
-
+// 0 = false
 // Nooo
